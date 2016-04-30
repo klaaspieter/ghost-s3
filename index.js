@@ -14,7 +14,7 @@ function S3Store(config) {
 }
 
 function getAwsPath(bucket) {
-    var awsPath = 'https://' + bucket + '.s3.amazonaws.com/';
+    var awsPath = 'https://s3.amazonaws.com/' + bucket + '/';
     return awsPath;
 }
 
